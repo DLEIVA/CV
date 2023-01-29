@@ -1,0 +1,496 @@
+
+\documentclass[11pt,fullpage]{article}
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{listliketab}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{bibentry}
+\usepackage{apacite}%[numberedbib]
+%\usepackage[longnamesfirst]{natbib}
+%\usepackage[style=apa, backend=biber]{biblatex}
+
+%\usepackage{doi}
+
+\renewcommand{\doiprefix}{}
+
+% Palatino font
+%\usepackage[T1]{fontenc}
+%\usepackage[sc,osf]{mathpazo}
+
+\def\name{David Leiva Ureña}
+
+\reversemarginpar
+
+\geometry{
+  body={6.5in,8.0in},
+  left=1.0in,
+  top=1.0in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+}{
+  \end{list}
+}
+
+
+
+\begin{document}
+\begingroup
+\let\cleardoublepage\clearpage
+\nobibliography{bibCV_LEIVA_ENG}
+\setcounter{page}{0}
+\endgroup
+
+\newpage
+
+\clearpage
+
+\clearpage
+
+\thispagestyle{empty}
+
+\begin{figure}
+\centerline{\Large \bf \name}
+\vspace{0.25in}
+\begin{minipage}{0.15\textwidth}
+%\flushright{\rule{3.5cm}{4.5cm}}
+\includegraphics[width=0.7\textwidth]{picture_me2020.jpg}
+\end{minipage}
+\begin{minipage}{0.5\linewidth}
+% Print name centered and bold:
+  \href{http://www.ub.edu/}{University of Barcelona} \\
+  Quantitative Psychology Section \\
+  Social Psychology and Quantitative Psychology Department \\
+  Pg. Vall d'Hebron, 171 \\
+  08035 Barcelona
+\end{minipage}
+\begin{minipage}{0.5\linewidth}
+  \begin{tabular}{ll}
+    Phone number: & (+34) 93 312 50 71\\
+    e-mail: & \href{mailto:dleivaur@ub.edu}{dleivaur@ub.edu} \\
+  \end{tabular}
+\end{minipage}
+\end{figure}
+\vspace{10mm}
+\hrule
+
+\section*{Education}
+
+\begin{longtable}{p{0.97in}|p{4.95in}}
+  2017$-$2018 & {\bf Postgraduate} Introduction to Data Science, University of Barcelona \\  
+	2009$-$2016 & {\bf BSc} Statistics, University of Barcelona - Polytechnic University of Catalonia \\
+  2005$-$2009 & {\bf Doctorate} Psychology, University of Barcelona \\  
+  2007$-$2007 & {\bf Postgraduate} \emph{Docencia Universitaria}, University de Barcelona \\ 
+  2000$-$2004 & {\bf BA} Psychology, University of Barcelona \\
+	1997$-$2000 & {\bf BA} Nursing, University of Barcelona \\
+\end{longtable}
+
+\vspace{10mm}
+\hrule
+\vspace{10mm}
+
+\section*{Teaching Contracts}
+
+\begin{longtable}{p{0.97in}|p{4.95in}}
+	2018$-$Present & \emph{Profesor agregado}, Social Psychology and Quantitative Psychology Department \\
+	2016$-$2018 & \emph{Profesor agregado interino}, Social Psychology and Quantitative Psychology Department \\
+	2015$-$2016 & \emph{Profesor agregado interino}, Department of Behavioral Sciences Methods \\
+  2010$-$2015 & \emph{Profesor lector}, Department of Behavioral Sciences Methods \\  
+  2008$-$2010 & \emph{Profesor ayudante}, Department of Behavioral Sciences Methods \\ 
+  2005$-$2008 & \emph{Pre-doctoral fellowship}, Department of Behavioral Sciences Methods \\
+\end{longtable}
+
+\vspace{10mm}
+\hrule
+\vspace{10mm}
+
+\section*{Publications}
+\setlength{\extrarowheight}{10pt}
+
+\begin{longtable}{p{0.5in}|p{5.5in}}
+  2023 & \bibentry{castellvi2023}\textbf{Impact Factor}: $4.997$.\\
+       & \bibentry{berger2023}\textbf{Impact Factor}: $4.68$.\\
+  2022 & \bibentry{pereiro2022}\textbf{Impact Factor}: $3.520$.\\
+       & \bibentry{llistosella2022}\textbf{Impact Factor}: $4.614$.\\
+       & \bibentry{castellvi2022}\textbf{Impact Factor}: $4.424$.\\
+       & \bibentry{vilaseca2022}\textbf{Impact Factor}: $1.517$.\\
+       & \bibentry{leniz2022}\textbf{Impact Factor}: $3.061$.\\
+       & \bibentry{miranda2022}\textbf{Impact Factor}: $2.479$.\\
+  2021 & \bibentry{gutierrez2021}\textbf{Impact Factor}: $-$.\\
+  2020 & \bibentry{pero2020}\textbf{Impact Factor}: $-$.\\
+       & \bibentry{campos2020}\textbf{Impact Factor}: $7.723$.\\
+       & \bibentry{campos2020b}\textbf{Impact Factor}: $2.99$.\\
+       & \bibentry{galan2020}\textbf{Impact Factor}: $2.125$.\\
+  2019 & \bibentry{laporta2019}\textbf{Impact Factor}: $2.51$.\\
+       & \bibentry{berger2019}\textbf{Impact Factor}: $2.067$.\\  
+  2018 & \bibentry{laporta2018}\textbf{Impact Factor}: $3.943$.\\
+  2017 & \bibentry{sbragaglia2017}\textbf{Impact Factor}: $3.179$.\\
+       & \bibentry{forcadell2017}\textbf{Impact Factor}: $2.868$.\\
+       & \bibentry{shala2017}\textbf{Impact Factor}: $-$.\\
+  2016 %& \bibentry{leiva2016}\textbf{Impact Factor}: $3,801$.\\
+      & \bibentry{bueno2016}\textbf{Impact Factor}: $2,549$.\\
+      & \bibentry{fauquet2016}\textbf{Impact Factor}: $1,497$.\\ 
+       & \bibentry{losada2016}\textbf{Impact Factor}: $-$.\\
+  2015 & \bibentry{sanchez2015}\textbf{Impact Factor}: $3,395$.\\        
+  2013 & \bibentry{solanas2013}\textbf{Impact Factor}: $0,296$. \\
+  2012 & \bibentry{solanas2012}\textbf{Impact Factor}: $0,44$.\\
+       & \bibentry{leiva2012}\textbf{Impact Factor}: $-$.\\ 
+  2011 & \bibentry{solanas2011}\textbf{Impact Factor}: $-$.\\
+  2010 & \bibentry{leiva2010}\textbf{Impact Factor}: $0,6788$.\\
+       & \bibentry{solanas2010}\textbf{Impact Factor}: $1,419$.\\
+       & \bibentry{sierra2010} \textbf{Impact Factor}: $0,939$.\\
+       & \bibentry{manolov2010}\textbf{Impact Factor}: $-$.\\
+  2009 & \bibentry{solanas2009}\textbf{Impact Factor}: $2,923$.\\
+       & \bibentry{leiva2009}\textbf{Impact Factor}: $-$.\\
+  2008 & \bibentry{leiva2008a}\textbf{Impact Factor}: $1,737$.\\
+       & \bibentry{leiva2008b}\textbf{Impact Factor}: $1,213$.\\
+  2006 & \bibentry{solanas2006}\textbf{Impact Factor}: $1,150$.\\
+\end{longtable}
+
+\vspace{10mm}
+\hrule
+\vspace{10mm}
+
+\section*{Books}
+\setlength{\extrarowheight}{10pt}
+\begin{longtable}{p{0.5in}|p{5.5in}}
+  2016 & \bibentry{lsolanas2016} \\
+  2015 & \bibentry{lmanolov2015} \\
+  2014 & \bibentry{lmanolov2014} \\       
+  2012 & \bibentry{lguardia2012} \\
+       & \bibentry{lpero2012} \\
+       & \bibentry{lleiva2012} \\
+       & \bibentry{lleiva2012b} \\
+  2008 & \bibentry{lleiva2008} \\
+  2007 & \bibentry{lleiva2007} \\
+  2005 & \bibentry{lsalafranca2005} \\
+\end{longtable}
+
+\vspace{10mm}
+\hrule
+\vspace{10mm}
+
+\section*{Research Projects}
+\setlength{\extrarowheight}{10pt}
+\begin{longtable}{p{6in}}
+  \textbf{Grup de Conducta Adaptativa i Interacció (2005SGR00098)}. Project granted by the \emph{Departament d'Universitats, Recerca i Societat (DURSI) de la Generalitat de Catalunya} (2005-2009). Lead Researcher: Vicente Quera i Jordana. \\
+  
+\textbf{Interacción y adaptación en sistemas multi-agentes (SEJ2005-07310-C02-01/PSIC)}. Project granted by the \emph{Ministerio de Educación y Ciencia} (2005-2008). Lead Researcher: Antonio Solanas Pérez. \\
+  
+\textbf{Grup de Conducta Adaptativa i Interacció (2009SGR1492)}. Project granted by the \emph{Agència de Gestió d'Ajuts Universitaris i de Recerca de la Generalitat de Catalunya} (2009-2013). Lead Researcher: Vicente Quera i Jordana. \\
+
+\textbf{Disimilitud diádica en percepciones interpersonales (PSI2009-07076)}. Project granted by the \emph{Ministerio de Educación e Innovación} (2010-2012). Lead Researcher: Antonio Solanas Pérez. \\
+
+\textbf{Grup de Conducta Adaptativa i Interacció (2014SGR71)}. Project granted by the \emph{Agència de Gestió d'Ajuts Universitaris i de Recerca de la Generalitat de Catalunya} (2014-2016). Lead Researcher: Vicente Quera i Jordana. \\
+
+\textbf{Modelos Estadísticos para el análisis de la conectividad cerebral funcional y efectiva en  estudios de imagen de resonancia magnética funcional (fMRI)}. Project granted by the University of Barcelona (2014-2014). Lead Researcher: Joan Guàrdia i Olmos. \\
+
+\textbf{COBED: Cognición, bienestar y educación (PSI2013-41400-P)}. Project granted by the \emph{Fundació Barcelona Zoo} (2016-2017). Lead Researcher: Montserrat Colell Micó. \\
+
+\textbf{Modelos Estadísticos para el análisis de la conectividad cerebral funcional y efectiva en  estudios de imagen de resonancia magnética funcional (fMRI) (PSI2013-41400-P)}. Project granted by the \emph{Ministerio de Economia y Competitividad} (2014-2016). Lead Researcher: Joan Guàrdia i Olmos. \\
+
+\textbf{Juego y bienestar en primates cautivos. Beneficios de la terapia de juego en la sociabilidad y la recuperación conductual (3RB090)}. Project granted by the \emph{Fundació Barcelona Zoo} (2017-2018). Lead Researcher: Montserrat Colell Micó. \\
+
+\textbf{Validación de medidas diagnósticas cuantitativas de sintomatología depresiva mediante biomarcadores funcionales (BIOVAL-D) (PI16/00165)}. Project granted by the \emph{Ministerio de Economia y Competitividad} (2017-2019). Lead Researcher: Carlos García Forero. \\
+
+\textbf{Percepción de Competencia y Percepción de Reto: Mecanismos Motivacionales Básicos Influyentes en el Desempeño Académico} Project granted by the \emph{Institut de Ciències de l'Educació - Universitat de Barcelona} (2018-2019). Lead Researcher: José Navarro Cid. \\
+
+\textbf{Grup de Psicologia Quantitativa (2017SGR269)}. Project granted by the \emph{Agència de Gestió d'Ajuts Universitaris i de Recerca} (AGAUR) (2017-2022). Lead Researcher: Joan Guàrdia Olmos. \\
+
+\textbf{Improving management competences on Excellence based Stress avoidance and working towards Sustainable organisational development in Europe (588315-EPP-1-2017-1-ES-EP)}. Project granted by the Education, Audiovisual and Culture Executive Agency (EACEA) (2017-2020). Lead Researcher: Rita Gisela Berger. \\
+
+\textbf{Consultoria d'anàlisi estadístic i automatització d'informes}. Project granted by Barcelona Activa SPM, S.A. (2018). Lead Researcher: David Leiva Ureña. \\
+
+\textbf{Indicadores estadísticos para el estudio de redes de conectividad cerebral en registros de resonancia magnética funcional (fmri) y su aplicación para el diagnóstico del deterioro cognitivo (PGC2018-095829-B-I00)}. Project granted by the \emph{Ministerio de Innovación, Ciencia y Universidades} (2019-2022). Lead Researcher: Joan Guàrdia i Olmos. \\
+
+\textbf{SIHEM-UB (Skills Inventory for Higher Education Management). Escala d'habilitats de gestió en educaciósuperior} Project granted by the \emph{Institut de Ciències de l'Educació - Universitat de Barcelona} (2016-2017). Lead Researcher: Maribel Peró Cebollero. \\
+
+\textbf{GIDCUB-11/EST. Grup d'Innovació per l'aprenentatge de l'Estadística en Salut} Project granted by the \emph{Universitat de Barcelona} (2016-2022). Lead Researcher: . Joan Guàrdia i Olmos\\
+
+\textbf{Mención de Excelencia Maria de Maetzu al Institut de Neurociències de la Universitat de Barcelona(UBNEURO)} Project granted by the \emph{Ministerio de Economia, Industria y Competitividad} (2018-2022). Lead Researcher: Jordi Alberch Vie. \\
+
+\textbf{Excellence based profiling to identify and apply tools and trainings for a better and sustainable Work-Life-Flow} Project granted by the \emph{Education, Audiovisual and Culture Executive Agency (EACEA)} (2020-2023). Lead Researcher: Rita Gisela Berger. \\
+
+\textbf{Socio-Economic and Psychological Impact of COVID-19 pandemin in a Spanish representative population-based cohort (BIOVAL-D-COVID-19)} Project granted by the \emph{Observatorio Social 'la Caixa'} (2020-2021). Lead Researcher: Pere Castellví Obiols. \\
+
+\textbf{Influencias Emocionales en la Motivación Laboral: Análisis Intra-Participante de la Dinámica Motivacional (PID2020-120148GB-I00)} Project granted by the \emph{Ministerio de Ciencia, Innovación y Universidades} (2021-2025). Lead Researcher: . \\
+
+\textbf{Grup de Psicologia Quantitativa (2021SGR00366)}. Project granted by the \emph{Agència de Gestió d'Ajuts Universitaris i de Recerca} (AGAUR) (2023-2026). Lead Researcher: Joan Guàrdia Olmos. \\
+
+\end{longtable}
+
+%\setlength{\extrarowheight}{5pt}
+
+\vspace{10mm}
+\hrule
+\vspace{10mm}
+
+\section*{Research Visits}
+\setlength{\extrarowheight}{10pt}
+\begin{longtable}{p{6in}}
+  \textbf{Analysis of asymmetric social systems. Development of measures and statistical tests}. Research visit done in the Behavioural Biology Group at the University of Utrecht. Duration: January 2008 $-$ June 2008.\\
+
+  \textbf{Técnicas de clasificación y adherencia a la dieta mediterránea}. Research visit done in the \emph{Dpto. de Metodología de Psicobiología y Metodología en Cc. de la Salud}. Duration: September 2014 $-$ November 2014.\\
+
+  \textbf{Diseños longitudinales y adherencia a la dieta mediterránea}. Research visit done in the  \emph{Dpto. de Metodología de Psicobiología y Metodología en Cc. de la Salud}. Duration: December 2014 $-$ February 2015.\\
+  
+  \textbf{Diseños longitudinales en estudios epidemiológicos}. Research visit done in the \emph{Grup de Recerca en Serveis Sanitaris} of the \emph{Institut Hospital del Mar d'Investigacions Mèdiques} (IMIM). Duration: September 2015 $-$ November 2015.\\
+
+  \textbf{Diseños longitudinales en estudios epidemiológicos}. Research visit done in the \emph{Grup de Recerca en Serveis Sanitaris} of the \emph{Institut Hospital del Mar d'Investigacions Mèdiques} (IMIM). Duration: December 2015 $-$ February 2016.\\  
+  
+    \textbf{Modelos TRI en salud: Estimación en distintos diseños de muestreo}. Research visit done in the \emph{Grup de Recerca en Serveis Sanitaris} of the \emph{Institut Hospital del Mar d'Investigacions Mèdiques} (IMIM). Duration: December 2017 $-$ February 2018.\\ 
+
+\end{longtable}
+
+%\setlength{\extrarowheight}{5pt}
+
+\vspace{10mm}
+\hrule
+\vspace{10mm}
+
+\section*{Presentations}
+
+\begin{longtable}{p{0.5in}|p{5.5in}}
+  2022 & \bibentry{pnavarro2022} \\
+       & \bibentry{pblasco2022} \\
+       & \bibentry{pblasco2022b} \\
+       & \bibentry{pgarcia2022} \\
+  2021 & \bibentry{ppalmero2021} \\
+       & \bibentry{pgutierrez2021} \\
+       & \bibentry{pgallardo2021} \\
+       & \bibentry{pcurto2021} \\
+       & \bibentry{privero2021} \\
+  2020 & \bibentry{pleiva2020} \\
+       & \bibentry{pleiva2020b} \\
+  2019 & \bibentry{pcerdan2019} \\
+       & \bibentry{pcerdan2019b} \\
+       & \bibentry{pcampos2019} \\
+       & \bibentry{pglazer2019} \\
+       & \bibentry{pwietrak2019} \\
+       & \bibentry{pberger2019} \\
+  2018 & \bibentry{pberger2018} \\
+       & \bibentry{pwietrak2018} \\
+       & \bibentry{pwietrak2018b} \\
+       & \bibentry{pgalan2018} \\
+       & \bibentry{plaporta2018} \\
+  2017 & \bibentry{pnavarro2017} \\
+       & \bibentry{pberger2017} \\
+       & \bibentry{pnavarro2017} \\
+       & \bibentry{psolanas2017} \\
+       & \bibentry{pbueno2017} \\
+       & \bibentry{pbueno2017b} \\
+       & \bibentry{pavila2017} \\
+  2016 & \bibentry{psanchez2016} \\
+  2015 & \bibentry{psbragaglia2015} \\
+       & \bibentry{pcorral2015} \\
+  2014 & \bibentry{plosada2014} \\
+       & \bibentry{ppero2014} \\
+       & \bibentry{pmanolov2014} \\       
+  2013 & \bibentry{pguardia2013} \\
+       & \bibentry{pmanolov2013} \\
+  2012 & \bibentry{psolanas2012} \\
+       & \bibentry{pguardia2012} \\  
+  2011 & \bibentry{psolanas2011} \\
+  2010 & \bibentry{pleiva2010} \\
+       & \bibentry{pleiva2010b} \\
+       & \bibentry{psolanas2010} \\
+       & \bibentry{pmanolov2010} \\
+       & \bibentry{psolanas2010b} \\
+       & \bibentry{pandres2010} \\       
+  2009 & \bibentry{psolanas2009}\\
+  2008 & \bibentry{pleiva2008a} \\
+       & \bibentry{pleiva2008b} \\
+       & \bibentry{psolanas2008} \\
+  2007 & \bibentry{pleiva2007a} \\
+       & \bibentry{pleiva2007b} \\
+       & \bibentry{pleiva2007c} \\
+       & \bibentry{psolanas2007} \\
+  2006 & \bibentry{pleiva2006a} \\
+       & \bibentry{pleiva2006b} \\
+  2005 & \bibentry{psolanas2005} \\
+\end{longtable}
+
+\vspace{10mm}
+\hrule
+\vspace{10mm}
+
+\section*{Teaching Experience}
+\setlength{\extrarowheight}{10pt}
+\begin{longtable}{p{0.95in}|p{4.95in}}
+
+2023$-$Present & \textbf{Course:} Visualización de datos y reproducibilidad. \textbf{Program:} Master Program in Behavioral Data Sciences.\\
+
+2023$-$Present & \textbf{Course:} Fundamentos de modelos estadísticos. \textbf{Program:} Master Program in Behavioural Data Sciences.\\
+
+2022$-$Present & \textbf{Course:} Gestión y organización de datos. \textbf{Program:} Master Program in Behavioural Data Sciences.\\
+
+2022$-$Present & \textbf{Course:} Bioestadística i Matemàtica Aplicada. \textbf{Program:} Degree in Foods Sciences.\\
+
+2022$-$Present & \textbf{Course:} Bioestadística i Matemàtica Aplicada. \textbf{Program:} Degree in Human Nutrition and Dietetics.\\
+
+2019$-$2022 & \textbf{Course:} Tools for Data Science. \textbf{Program:} Master Program of Research in Behavior and Cognition.\\
+
+2017$-$2019 & \textbf{Course:} Recerca i Anàlisi Multivariat en Psicologia del Treball i de les Organitzacions. \textbf{Program:} Master Erasmus Mundus in \emph{Psicologia del Treball, Organitzacions i Recursos Humans}.\\
+
+2017$-$Present & \textbf{Course:} Seminars in Behavior and Cognition. \textbf{Program:} Master Program of Research in Behavior and Cognition.\\
+
+2016 & \textbf{Course:} Bases metodològiques en recerca en ciències de la salut. \textbf{Program:} Master \emph{Medicaments, Salut i Sistema Sanitari}.\\
+
+2016$-$Present & \textbf{Course:} Aplicacions de la Bioestadística a la salut. \textbf{Program:} Master \emph{Lideratge i Gestió dels Serveis d'Infermeria}.\\
+
+2015$-$Present & \textbf{Course:} Regression analysis and the general linear model. \textbf{Program:} Master Program of Research in Behavior and Cognition.\\
+
+2014$-$2019 & \textbf{Course:} Metodologies quantitatives i qualitatives en investigació psicogerontològica. \textbf{Program:} Master in \emph{Psicogerontología}.\\
+
+2013$-$2019 & \textbf{Course:} Anàlisi de les xarxes socials. \textbf{Program:} Degree in Psychology.\\
+
+2012$-$2019 & \textbf{Course:} Workshop on data analysis. \textbf{Program:} Master Program of Research in Behavior and Cognition.\\
+
+2011$-$2018 & \textbf{Course:} Treball Fi de Grau. \textbf{Program:} Degree in Psychology.\\
+
+2011$-$2018 & \textbf{Course:} Pràcticum. \textbf{Program:} Degree in Psychology.\\
+
+2009$-$Present & \textbf{Course:} Tècniques de Recerca. \textbf{Program:} Degree in Psychology.\\
+
+2009$-$Present & \textbf{Course:} Estadística. \textbf{Program:} Degree in Psychology.\\
+
+2010$-$2019 & \textbf{Course:} Recerca II. \textbf{Program:} Master Erasmus Mundus in \emph{Psicologia del Treball, Organitzacions i Recursos Humans}.\\
+
+2011$-$2014 & \textbf{Course:} Mètodes i tècniques quantitatives d'anàlisi de dades. \textbf{Program:} Master in \emph{Psicogerontología}.\\
+
+2010$-$2013 & \textbf{Course:} Anàlisi de les relacions socials. \textbf{Program:} Degree in Psychology.\\
+
+2010$-$2013 & \textbf{Course:} Tècniques quantitatives multivariants. \textbf{Program:} Master in \emph{Intervenció Psicosocial}.\\
+
+2010$-$2012 & \textbf{Course:} Mètodes i tècniques d'investigació social. \textbf{Program:} Degree in Social Work.\\
+
+2009$-$2011 & \textbf{Course:} Dissenys de recerca. \textbf{Program:} Degree in Psychology.\\
+
+2010$-$2011 & \textbf{Course:} Psicometria. \textbf{Program:} Degree in Psychology.\\
+
+2010$-$2011 & \textbf{Course:} Psicometria. \textbf{Program:} Degree in Psychology.\\
+
+2009$-$2010 & \textbf{Course:} Mètodes, dissenys i tècniques de recerca psicològica. \textbf{Program:} Degree in  Educational Sciences.\\
+
+2008$-$2009 & \textbf{Course:} Psicometria. \textbf{Program:} Degree in Psychology.\\
+
+2008$-$2009 & \textbf{Course:} Dissenys experimentals i aplicats. \textbf{Program:} Degree in Psychology.\\
+
+2006$-$2007 & \textbf{Course:} Psicometria. \textbf{Program:} Degree in Psychology.\\
+
+2005$-$2009 & \textbf{Course:} Anàlisi de dades en Psicologia. \textbf{Program:} Degree in Psychology.\\
+\end{longtable}
+
+%\setlength{\extrarowheight}{5pt}
+
+\vspace{10mm}
+\hrule
+\vspace{10mm}
+
+\section*{Seminars and courses}
+\setlength{\extrarowheight}{10pt}
+\begin{longtable}{p{6in}}
+
+  \textbf{Research Methods in Cyberspace, Behavior and e-Therapy}. Course organized by the \emph{School of Psychology and Life Sciences} of the University Lusṕfona of Lisbon. 12 hours, taught in November 2022. \\
+
+  \textbf{Curso de Estadística Básica con SPSS}. Course organized by the \emph{Insitut Ciències de l'Educacio´} of the Polytechnic University of Catalonia. 10 hours, taught in July 2021. \\
+
+  \textbf{Curso de análisis de datos y modelos TRI con R}. Course organized by the \emph{Dpto. de Psicología del Desarrollo} of the University of Santiago de Compostela. 12 hours, taught in January 2018. \\
+
+  \textbf{Curso de análisis de datos con R}. Course organized by the \emph{Dpto. de Metodología de las Cc. del Comportamiento}. 20 hours, taught in July 2015 jointly with Dr. Rumen Manolov. \\
+
+  \textbf{Introducció a les eines estadístiques bàsiques}. Course organized by the \emph{ICE-UB}. 20 hours, taught in June 2015,  jointly with Dr. Joan Guàrdia i Olmos, Dr. Maribel Peró Cebollero, and Dr. Rumen Manolov. \\
+
+  \textbf{Taller de anàlisis de datos con R y R-Commander}. Course organized by the \emph{Dpto. de Psicología Evolutiva}. 12 hours taught in November 2014 jointly with Dr. Rumen Manolov. \\
+  
+  \textbf{Introducció a les eines estadístiques bàsiques}. Course organized by the \emph{ICE-UB}. 20 hours taught in 2014 jointly with Dr. Joan Guàrdia i Olmos, Dr. Maribel Peró Cebollero, and Dr. Rumen Manolov. \\
+  
+    \textbf{Competències transversals del Grau de Psicologia: com les ensenyem i com les evaluem}. Workshop organized by the \emph{ICE-UB}. 4.5 hours taught in February 2013 jointly with other lecturers and associate professors from the University of Barcelona. \\
+    
+  \textbf{New Plug-in in R-Commander}. Workshop of 1 hour included in the \emph{Advanced seminar in R-Commander} organized by the \emph{Dpto. de Metodología de las Ciencias del Comportamiento} in October 2012. \\
+    
+  \textbf{Introducció a les eines estadístiques bàsiques}. Course organized by the \emph{ICE-UB}. 20 hours taught in January 2012 jointly with Dr. Joan Guàrdia i Olmos and Dr. Maribel Peró Cebollero. \\
+  
+  \textbf{Introducció a les tècniques d'anàlisi de dades multivariants}. Course organized by the \emph{ICE-UB}. 20 hours taught in January 2012 jointly with Dr. Joan Guàrdia i Olmos and Dr. Maribel Peró Cebollero. \\
+
+  \textbf{Tècniques estadístiques multivariants}. Course organized by the \emph{ICE-UB}. 20 hours taught in June-July 2011 jointly with Dr. Joan Guàrdia i Olmos and Dr. Maribel Peró Cebollero. \\
+  
+  \textbf{Introducció a les eines estadístiques bàsiques}. Course organized by the \emph{ICE-UB}. 20 hours taught in January 2011 jointly with Dr. Joan Guàrdia i Olmos and Dr. Maribel Peró Cebollero. \\
+    
+  \textbf{Curso básico de R}. Workshop of 6 hours taught in June 2010 in the \emph{Dpto. de Metodología de las Ciencias del Comportamiento}. \\
+
+\end{longtable}
+
+%\setlength{\extrarowheight}{5pt}
+
+\vspace{10mm}
+\hrule
+\vspace{10mm}
+
+\section*{Other merits}
+
+\begin{longtable}{p{6in}}
+Statistical software development:\\
+\bibentry{eacspir2015} \\
+\bibentry{steepness2014} \\
+\bibentry{pluginsteep2014} \\
+\end{longtable}
+
+\vspace{10mm}
+\hrule
+\vspace{10mm}
+
+\setlength{\extrarowheight}{10pt}
+
+\section*{Languages}
+
+\begin{longtable}{p{6in}}
+  English: C2.2  \\ 
+  Spanish: Native bilingual. \\
+  Catalan: Native bilingual. \\  
+  French: B2.1 \\
+\end{longtable}
+
+\vspace{10mm}
+\hrule
+
+% Footer
+\bigskip
+\begin{center}
+  \begin{footnotesize}
+    Last update: \today
+  \end{footnotesize}
+\end{center}
+
+\bibliographystyle{apacite}
+%\nobibliography{bibCV_LEIVA}
+
+\end{document}
