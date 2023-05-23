@@ -346,9 +346,9 @@
 \setlength{\extrarowheight}{10pt}
 \begin{longtable}{p{0.95in}|p{4.95in}}
 
-2023$-$Present & \textbf{Course:} Visualización de datos y reproducibilidad. \textbf{Program:} Master Program in Behavioral Data Sciences.\\
+2023$-$Present & \textbf{Course:} Visualización de datos y reproducibilidad. \textbf{Program:} Master Program in Behavioral Data Science.\\
 
-2023$-$Present & \textbf{Course:} Fundamentos de modelos estadísticos. \textbf{Program:} Master Program in Behavioural Data Sciences.\\
+2023$-$Present & \textbf{Course:} Fundamentos de modelos estadísticos. \textbf{Program:} Master Program in Behavioural Data Science.\\
 
 2022$-$Present & \textbf{Course:} Gestión y organización de datos. \textbf{Program:} Master Program in Behavioural Data Sciences.\\
 
