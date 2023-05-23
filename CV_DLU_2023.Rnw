@@ -358,9 +358,9 @@
 \setlength{\extrarowheight}{10pt}
 \begin{longtable}{p{0.95in}|p{4.95in}}
 
-2023$-$Presente & \textbf{Asignatura:} Visualización de datos y reproducibilidad. \textbf{Titulación:} Máster en Behavioral Data Sciences.\\
+2023$-$Presente & \textbf{Asignatura:} Visualización de datos y reproducibilidad. \textbf{Titulación:} Máster en Behavioral Data Science.\\
 
-2023$-$Presente & \textbf{Asignatura:} Fundamentos de modelos estadísticos. \textbf{Titulación:} Máster en Behavioural Data Sciences.\\
+2023$-$Presente & \textbf{Asignatura:} Fundamentos de modelos estadísticos. \textbf{Titulación:} Máster en Behavioural Data Science.\\
 
 2022$-$Presente & \textbf{Asignatura:} Gestión y organización de datos. \textbf{Titulación:} Máster en Behavioural Data Sciences.\\
 
