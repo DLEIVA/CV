@@ -1,0 +1,606 @@
+
+\documentclass[11pt,fullpage]{article}
+
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{listliketab}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{bibentry}
+\usepackage{apacite}%[numberedbib]
+%\usepackage[longnamesfirst]{natbib}
+%\usepackage[style=apa, backend=biber]{biblatex}
+
+%\usepackage{doi}
+
+\renewcommand{\doiprefix}{}
+
+% Palatino font
+%\usepackage[T1]{fontenc}
+%\usepackage[sc,osf]{mathpazo}
+
+\def\name{David Leiva Ureña}
+
+\reversemarginpar
+
+\geometry{
+  body={6.5in,8.0in},
+  left=1.0in,
+  top=1.0in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+}{
+  \end{list}
+}
+
+
+
+\begin{document}
+\nobibliography{bibCV_LEIVA}
+\setcounter{page}{0}
+
+\newpage
+
+\clearpage
+
+\clearpage
+
+\thispagestyle{empty}
+
+\begin{figure}
+\centerline{\Large \bf \name}
+\vspace{0.25in}
+\begin{minipage}{0.15\textwidth}
+%\flushright{\rule{3.5cm}{4.5cm}}
+\includegraphics[width=0.7\textwidth]{picture_me2020.jpg}
+\end{minipage}
+\begin{minipage}{0.5\linewidth}
+% Print name centered and bold:
+  \href{http://www.ub.edu/}{Universitat de Barcelona} \\
+  Secció de Psicologia Quantitativa \\
+  Dpt. Psicologia Social i Psicologia Quantitativa \\
+  Pg. Vall d'Hebron, 171 \\
+  08035 Barcelona
+\end{minipage}
+\begin{minipage}{0.5\linewidth}
+  \begin{tabular}{ll}
+    Teléfono: & 93 312 50 71\\
+    e-mail: & \href{mailto:dleivaur@ub.edu}{dleivaur@ub.edu} \\
+  \end{tabular}
+\end{minipage}
+\end{figure}
+\vspace{10mm}
+\hrule
+
+\section*{Educación}
+
+\begin{longtable}{p{0.97in}|p{4.95in}}
+  2017$-$2018 & {\bf Posgrado} Introducción al Data Science, Universitat de Barcelona \\  
+	2009$-$2016 & {\bf Grado} Estadística, Universitat de Barcelona - Universitat Politècnica de Catalunya \\
+  2005$-$2009 & {\bf Doctorado} Psicología, Universitat de Barcelona \\  
+  2007$-$2007 & {\bf Posgrado} Docencia universitaria, Universitat de Barcelona \\ 
+  2000$-$2004 & {\bf Licenciatura} Psicología, Universitat de Barcelona \\
+	1997$-$2000 & {\bf Diplomatura} Enfermería, Universitat de Barcelona \\
+\end{longtable}
+
+\vspace{10mm}
+\hrule
+\vspace{10mm}
+
+\section*{Contratos docentes}
+
+\begin{longtable}{p{0.97in}|p{4.95in}}
+	2018$-$Presente & Profesor agregado, Dpto. Psicología Social y Psicología Cuantitativa \\
+	2016$-$2018 & Profesor agregado interino, Dpto. Psicología Social y Psicología Cuantitativa \\
+	2015$-$2016 & Profesor agregado interino, Dpto. Metodología de las Cc. del Comportamiento \\
+  2010$-$2015 & Profesor lector, Dpto. Metodología de las Cc. del Comportamiento \\  
+  2008$-$2010 & Profesor ayudante, Dpto. Metodología de las Cc. del Comportamiento \\ 
+  2005$-$2008 & Becario predoctoral, Dpto. Metodología de las Cc. del Comportamiento \\
+\end{longtable}
+
+\vspace{10mm}
+\hrule
+\vspace{10mm}
+
+\section*{Publicaciones en revistas}
+\setlength{\extrarowheight}{10pt}
+
+\begin{longtable}{p{0.5in}|p{5.5in}}
+  2024 & \bibentry{czakert2024}\textbf{Factor de Impacto}: $2.9$.\\
+       & \bibentry{galant2024}\textbf{Factor de Impacto}: $3.0$.\\
+       & \bibentry{caldu2024}\textbf{Factor de Impacto}: $4.4$.\\
+       & \bibentry{blasco2024}\textbf{Factor de Impacto}: $3.8$.\\
+  2023 & \bibentry{castellvi2023}\textbf{Factor de Impacto}: $4.997$.\\
+       & \bibentry{berger2023}\textbf{Factor de Impacto}: $4.68$.\\
+       & \bibentry{rivero2023}\textbf{Factor de Impacto}: $2.0$.\\
+       & \bibentry{leniz2023}\textbf{Factor de Impacto}: $2.0$.\\
+       & \bibentry{leniz2023b}\textbf{Factor de Impacto}: $2.0$.\\    
+       & \bibentry{galant2023}\textbf{Factor de Impacto}: $3.0$.\\
+  2022 & \bibentry{pereiro2022}\textbf{Factor de impacto}: $3.520$.\\
+       & \bibentry{llistosella2022}\textbf{Factor de impacto}: $4.614$.\\
+       & \bibentry{castellvi2022}\textbf{Factor de impacto}: $4.424$.\\
+       & \bibentry{vilaseca2022}\textbf{Factor de impacto}: $1.517$.\\
+       & \bibentry{leniz2022}\textbf{Factor de impacto}: $3.061$.\\
+       & \bibentry{miranda2022}\textbf{Factor de impacto}: $2.479$.\\
+  2021 & \bibentry{gutierrez2021}\textbf{Factor de impacto}: $-$.\\
+  2020 & \bibentry{pero2020}\textbf{Factor de impacto}: $-$.\\
+       & \bibentry{campos2020}\textbf{Factor de impacto}: $7.723$.\\
+       & \bibentry{campos2020b}\textbf{Factor de impacto}: $2.99$.\\
+       & \bibentry{galan2020}\textbf{Factor de impacto}: $2.125$.\\
+  2019 & \bibentry{laporta2019}\textbf{Factor de impacto}: $2.51$.\\
+       & \bibentry{berger2019}\textbf{Factor de impacto}: $2.067$.\\  
+  2018 & \bibentry{laporta2018}\textbf{Factor de impacto}: $3.943$.\\
+  2017 & \bibentry{sbragaglia2017}\textbf{Factor de impacto}: $3.179$.\\
+       & \bibentry{forcadell2017}\textbf{Factor de impacto}: $2.868$.\\
+       & \bibentry{shala2017}\\
+  2016 %& \bibentry{leiva2016}\textbf{Factor de impacto}: $3,801$.\\
+      & \bibentry{bueno2016}\textbf{Factor de impacto}: $2,549$.\\
+      & \bibentry{fauquet2016}\textbf{Factor de impacto}: $1,497$.\\ 
+       & \bibentry{losada2016}.\\
+  2015 & \bibentry{sanchez2015}\textbf{Factor de impacto}: $3,395$.\\        
+  2013 & \bibentry{solanas2013}\textbf{Factor de impacto}: $0,296$. \\
+  2012 & \bibentry{solanas2012}\textbf{Factor de impacto}: $0,44$.\\
+       & \bibentry{leiva2012}\\ 
+  2011 & \bibentry{solanas2011} \\
+  2010 & \bibentry{leiva2010}\textbf{Factor de impacto}: $0,6788$.\\
+       & \bibentry{solanas2010}\textbf{Factor de impacto}: $1,419$.\\
+       & \bibentry{sierra2010} \textbf{Factor de impacto}: $0,939$.\\
+       & \bibentry{manolov2010}\\
+  2009 & \bibentry{solanas2009}\textbf{Factor de impacto}: $2,923$.\\
+       & \bibentry{leiva2009}\\
+  2008 & \bibentry{leiva2008a}\textbf{Factor de impacto}: $1,737$.\\
+       & \bibentry{leiva2008b}\textbf{Factor de impacto}: $1,213$.\\
+  2006 & \bibentry{solanas2006}\textbf{Factor de impacto}: $1,150$.\\
+\end{longtable}
+
+\vspace{10mm}
+\hrule
+\vspace{10mm}
+
+\section*{Publicaciones en libros}
+\setlength{\extrarowheight}{10pt}
+\begin{longtable}{p{0.5in}|p{5.5in}}
+  2016 & \bibentry{lsolanas2016} \\
+  2015 & \bibentry{lmanolov2015} \\
+  2014 & \bibentry{lmanolov2014} \\       
+  2012 & \bibentry{lguardia2012} \\
+       & \bibentry{lpero2012} \\
+       & \bibentry{lleiva2012} \\
+       & \bibentry{lleiva2012b} \\
+  2008 & \bibentry{lleiva2008} \\
+  2007 & \bibentry{lleiva2007} \\
+  2005 & \bibentry{lsalafranca2005} \\
+\end{longtable}
+
+\vspace{10mm}
+\hrule
+\vspace{10mm}
+
+\section*{Participación en proyectos}
+\setlength{\extrarowheight}{10pt}
+\begin{longtable}{p{6in}}
+  \textbf{Grup de Conducta Adaptativa i Interacció (2005SGR00098)}. Proyecto concedido por el Departament d'Universitats, Recerca i Societat (DURSI) de la Generalitat de Catalunya (2005-2009). Investigador principal: Vicente Quera i Jordana. \\
+  
+\textbf{Interacción y adaptación en sistemas multi-agentes (SEJ2005-07310-C02-01/PSIC)}. Proyecto concedido por el Ministerio de Educación y Ciencia (2005-2008). Investigador principal: Antonio Solanas Pérez. \\
+  
+\textbf{Grup de Conducta Adaptativa i Interacció (2009SGR1492)}. Proyecto concedido por la Agència de Gestió d'Ajuts Universitaris i de Recerca de la Generalitat de Catalunya (2009-2013). Investigador principal: Vicente Quera i Jordana. \\
+
+\textbf{Disimilitud diádica en percepciones interpersonales (PSI2009-07076)}. Proyecto concedido por el Ministerio de Educación e Innovación (2010-2012). Investigador principal: Antonio Solanas Pérez. \\
+
+\textbf{Grup de Conducta Adaptativa i Interacció (2014SGR71)}. Proyecto concedido por la Agència de Gestió d'Ajuts Universitaris i de Recerca de la Generalitat de Catalunya (2014-2016). Investigador principal: Vicente Quera i Jordana. \\
+
+\textbf{Modelos Estadísticos para el análisis de la conectividad cerebral funcional y efectiva en  estudios de imagen de resonancia magnética funcional (fMRI)}. Proyecto concedido por la Universidad de Barcelona (2014-2014). Investigador principal: Joan Guàrdia i Olmos. \\
+
+\textbf{COBED: Cognición, bienestar y educación (PSI2013-41400-P)}. Proyecto concedido por la Fundació Barcelona Zoo (2016-2017). Investigadora principal: Montserrat Colell Micó. \\
+
+\textbf{Modelos Estadísticos para el análisis de la conectividad cerebral funcional y efectiva en  estudios de imagen de resonancia magnética funcional (fMRI) (PSI2013-41400-P)}. Proyecto concedido por el Ministerio de Economia y Competitividad (2014-2016). Investigador principal: Joan Guàrdia i Olmos. \\
+
+\textbf{Juego y bienestar en primates cautivos. Beneficios de la terapia de juego en la sociabilidad y la recuperaci?n conductual (3RB090)}. Proyecto concedido por la Fundació Barcelona Zoo (2017-2018). Investigadora principal: Montserrat Colell Micó. \\
+
+\textbf{Validación de medidas diagnósticas cuantitativas de sintomatología depresiva mediante biomarcadores funcionales (BIOVAL-D) (PI16/00165)}. Proyecto concedido por el Ministerio de Economia y Competitividad (2017-2019). Investigador principal: Carlos García Forero. \\
+
+\textbf{Grup de Psicologia Quantitativa (2017SGR269)}. Proyecto concedido por la Agència de Gestió d'Ajuts Universitaris i de Recerca (AGAUR) (2017-2021). Investigador principal: Joan Guàrdia Olmos. \\
+
+\textbf{Improving management competences on Excellence based Stress avoidance and working towards Sustainable organisational development in Europe (588315-EPP-1-2017-1-ES-EP)}. Proyecto concedido por Education, Audiovisual and Culture Executive Agency (EACEA) (2017-2020). Investigadora principal: Rita Gisela Berger. \\
+
+\textbf{Consultoria d'anàlisi estadístic i automatització d'informes}. Proyecto concedido por Barcelona Activa SPM, S.A. (2018). Investigador principal: David Leiva Ureña. \\
+
+\textbf{Indicadores estadísticos para el estudio de redes de conectividad cerebral en registros de resonancia magnética funcional (fmri) y su aplicación para el diagnóstico del deterioro cognitivo (PGC2018-095829-B-I00)}. Proyecto concedido por el Ministerio de Innovación, Ciencia y Universidades (2019-2022). Investigador principal: Joan Guàrdia i Olmos. \\
+
+\textbf{SIHEM-UB (Skills Inventory for Higher Education Management). Escala d'habilitats de gestió en educaciósuperior} Project granted by the \emph{Institut de Ciències de l'Educació - Universitat de Barcelona} (2016-2017). Investigador Principal: Maribel Peró Cebollero. \\
+
+\textbf{GIDCUB-11/EST. Grup d'Innovació per l'aprenentatge de l'Estadística en Salut} Proyecto concedido por la \emph{Universitat de Barcelona} (2016-2022). Investigador Principal: . Joan Guàrdia i Olmos\\
+
+\textbf{Mención de Excelencia Maria de Maetzu al Institut de Neurociències de la Universitat de Barcelona(UBNEURO)} Proyecto concedido por el \emph{Ministerio de Economia, Industria y Competitividad} (2018-2022). Investigador Principal: Jordi Alberch Vie. \\
+
+\textbf{Excellence based profiling to identify and apply tools and trainings for a better and sustainable Work-Life-Flow} Proyecto concedido por la \emph{Education, Audiovisual and Culture Executive Agency (EACEA)} (2020-2023). Investigador Principal: Rita Gisela Berger. \\
+
+\textbf{Socio-Economic and Psychological Impact of COVID-19 pandemin in a Spanish representative population-based cohort (BIOVAL-D-COVID-19)} Proyecto concedido por el \emph{Observatorio Social 'la Caixa'} (2020-2021). Investigador Principal: Pere Castellví Obiols. \\
+
+\textbf{Influencias Emocionales en la Motivación Laboral: Análisis Intra-Participante de la Dinámica Motivacional (PID2020-120148GB-I00)} Proyecto concedido por el \emph{Ministerio de Ciencia, Innovación y Universidades} (2021-2025). Investigador Principal: . \\
+
+\textbf{Grup de Psicologia Quantitativa (2021SGR00366)}. Proyecto concedido por la \emph{Agència de Gestió d'Ajuts Universitaris i de Recerca} (AGAUR) (2023-2026). Investigador Principal: Joan Guàrdia Olmos. \\
+
+\end{longtable}
+
+%\setlength{\extrarowheight}{5pt}
+
+\vspace{10mm}
+\hrule
+\vspace{10mm}
+
+\section*{Estancias de investigación}
+\setlength{\extrarowheight}{10pt}
+\begin{longtable}{p{6in}}
+  \textbf{Analysis of asymmetric social systems. Development of measures and statistical tests}. Estancia realizada en el Behavioural Biology Group de la Universidad de Utrecht. Periodo: Enero de 2008 $-$ Junio de 2008.\\
+
+  \textbf{Técnicas de clasificación y adherencia a la dieta mediterránea}. Estancia realizada en el Dpto. de Metodología de Psicobiología y Metodología en Cc. de la Salud. Periodo: Septiembre de 2014 $-$ Noviembre de 2014.\\
+
+  \textbf{Diseños longitudinales y adherencia a la dieta mediterránea}. Estancia realizada en el Dpto. de Metodología de Psicobiología y Metodología en Cc. de la Salud. Periodo: Diciembre de 2014 $-$ Febrero de 2015.\\
+  
+  \textbf{Diseños longitudinales en estudios epidemiològicos}. Estancia realizada en el ''Grup de Recerca en Serveis Sanitaris'' del ''Institut Hospital del Mar d'Investigacions Mèdiques'' (IMIM). Periodo: Septiembre de 2015 $-$ Noviembre de 2015.\\
+
+  \textbf{Diseños longitudinales en estudios epidemiológicos}. Estancia realizada en el ''Grup de Recerca en Serveis Sanitaris'' del ''Institut Hospital del Mar d'Investigacions Mèdiques'' (IMIM). Periodo: Diciembre de 2015 $-$ Febrero de 2016.\\  
+  
+    \textbf{Modelos TRI en salud: Estimación en distintos diseños de muestreo}. Estancia realizada en el ''Grup de Recerca en Serveis Sanitaris'' del ''Institut Hospital del Mar d'Investigacions Mèdiques'' (IMIM). Periodo: Diciembre de 2017 $-$ Febrero de 2018.\\ 
+
+\end{longtable}
+
+%\setlength{\extrarowheight}{5pt}
+
+\vspace{10mm}
+\hrule
+\vspace{10mm}
+
+\section*{Presentaciones en congresos}
+
+\begin{longtable}{p{0.5in}|p{5.5in}}
+  2024 & \bibentry{pnavarro2024} \\
+       & \bibentry{privero2024} \\
+  2023 & \bibentry{pnavarro2023} \\
+       & \bibentry{privero2023} \\
+       & \bibentry{pezzeddine2023} \\
+       & \bibentry{pescorcia2023} \\       
+  2022 & \bibentry{pnavarro2022} \\
+       & \bibentry{pblasco2022} \\
+       & \bibentry{pblasco2022b} \\
+       & \bibentry{pgarcia2022} \\
+  2021 & \bibentry{ppalmero2021} \\
+       & \bibentry{pgutierrez2021} \\
+       & \bibentry{pgallardo2021} \\
+       & \bibentry{pcurto2021} \\
+       & \bibentry{privero2021} \\
+  2020 & \bibentry{pleiva2020} \\
+       & \bibentry{pleiva2020b} \\
+  2019 & \bibentry{pcerdan2019} \\
+       & \bibentry{pcerdan2019b} \\
+       & \bibentry{pcampos2019} \\
+       & \bibentry{pglazer2019} \\
+       & \bibentry{pwietrak2019} \\
+       & \bibentry{pberger2019} \\
+  2018 & \bibentry{pberger2018} \\
+       & \bibentry{pwietrak2018} \\
+       & \bibentry{pwietrak2018b} \\
+       & \bibentry{pgalan2018} \\
+       & \bibentry{plaporta2018} \\
+  2017 & \bibentry{pnavarro2017} \\
+       & \bibentry{pberger2017} \\
+       & \bibentry{pnavarro2017} \\
+       & \bibentry{psolanas2017} \\
+       & \bibentry{pbueno2017} \\
+       & \bibentry{pbueno2017b} \\
+       & \bibentry{pavila2017} \\
+  2016 & \bibentry{psanchez2016} \\
+  2015 & \bibentry{psbragaglia2015} \\
+       & \bibentry{pcorral2015} \\
+  2014 & \bibentry{plosada2014} \\
+       & \bibentry{ppero2014} \\
+       & \bibentry{pmanolov2014} \\       
+  2013 & \bibentry{pguardia2013} \\
+       & \bibentry{pmanolov2013} \\
+  2012 & \bibentry{psolanas2012} \\
+       & \bibentry{pguardia2012} \\  
+  2011 & \bibentry{psolanas2011} \\
+  2010 & \bibentry{pleiva2010} \\
+       & \bibentry{pleiva2010b} \\
+       & \bibentry{psolanas2010} \\
+       & \bibentry{pmanolov2010} \\
+       & \bibentry{psolanas2010b} \\
+       & \bibentry{pandres2010} \\       
+  2009 & \bibentry{psolanas2009}\\
+  2008 & \bibentry{pleiva2008a} \\
+       & \bibentry{pleiva2008b} \\
+       & \bibentry{psolanas2008} \\
+  2007 & \bibentry{pleiva2007a} \\
+       & \bibentry{pleiva2007b} \\
+       & \bibentry{pleiva2007c} \\
+       & \bibentry{psolanas2007} \\
+  2006 & \bibentry{pleiva2006a} \\
+       & \bibentry{pleiva2006b} \\
+  2005 & \bibentry{psolanas2005} \\
+\end{longtable}
+
+\vspace{10mm}
+\hrule
+\vspace{10mm}
+
+\section*{Otros méritos de investigación}
+\setlength{\extrarowheight}{10pt}
+\begin{longtable}{p{6in}}
+  \textbf{3 sexenios de Investigación}. Concedidos por la Agència de Qualitat Universitària de la Generalitat de Catalunya. Periodos: 2005 $-$ 2010; 2011 $-$ 2016 y 2017 $-$ 2022.\\
+  \textbf{Acreditación de Profesor Lector}. Concedida por la Agència de Qualitat Universitària de la Generalitat de Catalunya. Fecha: Diciembre 2009.\\
+  \textbf{Acreditación de Profesor Ayudante Doctor}. Concedida por la ANECA. Fecha: Octubre 2009.\\  
+  \textbf{Acreditación de Profesor Contratado Doctor}. Concedida por la ANECA. Fecha: Septiembre 2011.\\
+    \textbf{Acreditación de Profesor Titular de Universidad}. Concedida por la ANECA. Fecha: Diciembre 2011.\\
+  \textbf{Acreditació de Recerca}. Concedida por la Agència de Qualitat Universitària de la Generalitat de Catalunya. Fecha: Marzo de 2013.\\    
+\end{longtable}
+
+%\setlength{\extrarowheight}{5pt}
+
+\vspace{10mm}
+\hrule
+\vspace{10mm}
+
+\section*{Experiencia docente}
+\setlength{\extrarowheight}{10pt}
+\begin{longtable}{p{0.95in}|p{4.95in}}
+
+2023$-$Presente & \textbf{Asignatura:} Visualización de datos y reproducibilidad. \textbf{Titulación:} Máster en Behavioral Data Sciences.\\
+
+2023$-$2024 & \textbf{Asignatura:} Fundamentos de modelos estadísticos. \textbf{Titulación:} Máster en Behavioural Data Sciences.\\
+
+2022$-$Presente & \textbf{Asignatura:} Gestión y organización de datos. \textbf{Titulación:} Máster en Behavioural Data Sciences.\\
+
+2022$-$2024 & \textbf{Asignatura:} Bioestadística i Matemàtica Aplicada. \textbf{Titulación:} Grado en Ciencias de la Alimentación.\\
+
+2022$-$Presente & \textbf{Asignatura:} Bioestadística i Matemàtica Aplicada. \textbf{Titulación:} Grado en Nutrición Humana y Dietética.\\
+
+2019$-$2022 & \textbf{Asignatura:} Tools for Data Science. \textbf{Titulación:} Máster Research in Behavior and Cognition.\\
+
+2017$-$2019 & \textbf{Asignatura:} Recerca i Anàlisi Multivariat en Psicologia del Treball i de les Organitzacions. \textbf{Titulación:} Máster Erasmus Mundus en Psicologia del Treball, Organitzacions i Recursos Humans.\\
+
+2017$-$Presente & \textbf{Asignatura:} Seminars in Behavior and Cognition. \textbf{Titulación:} Máster Research in Behavior and Cognition.\\
+
+2016 & \textbf{Asignatura:} Bases metodològiques en recerca en ciències de la salut. \textbf{Titulación:} Máster Medicaments, Salut i Sistema Sanitari.\\
+
+2016$-$ 2020 & \textbf{Asignatura:} Aplicacions de la Bioestadística a la salut. \textbf{Titulación:} Máster Lideratge i Gestió dels Serveis d'Infermeria.\\
+
+2015$-$Presente & \textbf{Asignatura:} Regression analysis and the general linear model. \textbf{Titulación:} Máster Research in Behavior and Cognition.\\
+
+2014$-$2019 & \textbf{Asignatura:} Metodologies quantitatives i qualitatives en investigació psicogerontològica. \textbf{Titulación:} Máster en Psicogerontología.\\
+
+2013$-$2019 & \textbf{Asignatura:} Anàlisi de les xarxes socials. \textbf{Titulación:} Grado de Psicología.\\
+
+2012$-$2019 & \textbf{Asignatura:} Workshop on data analysis. \textbf{Titulación:} Máster Research in Behaviour and Cognition.\\
+
+2011$-$2018 & \textbf{Asignatura:} Treball Fi de Grau. \textbf{Titulación:} Grado de Psicología.\\
+
+2011$-$2018 & \textbf{Asignatura:} Pràcticum. \textbf{Titulación:} Grado de Psicología.\\
+
+2009$-$Presente & \textbf{Asignatura:} Tècniques de Recerca. \textbf{Titulación:} Grado de Psicología.\\
+
+2009$-$Presente & \textbf{Asignatura:} Estadística. \textbf{Titulación:} Grado de Psicología.\\
+
+2010$-$2019 & \textbf{Asignatura:} Recerca II. \textbf{Titulación:} Máster Erasmus Mundus en Psicologia del Treball, Organitzacions i Recursos Humans.\\
+
+2011$-$2014 & \textbf{Asignatura:} Mètodes i tècniques quantitatives d'anàlisi de dades. \textbf{Titulación:} Máster en Psicogerontología.\\
+
+2010$-$2013 & \textbf{Asignatura:} Anàlisi de les relacions socials. \textbf{Titulación:} Grado de Psicología.\\
+
+2010$-$2013 & \textbf{Asignatura:} Tècniques quantitatives multivariants. \textbf{Titulación:} Màster en Intervenció Psicosocial.\\
+
+2010$-$2012 & \textbf{Asignatura:} Mètodes i tècniques d'investigació social. \textbf{Titulación:} Grado de Trabajo Social.\\
+
+2009$-$2011 & \textbf{Asignatura:} Dissenys de recerca. \textbf{Titulación:} Grado de Psicología.\\
+
+2010$-$2011 & \textbf{Asignatura:} Psicometria. \textbf{Titulación:} Grado de Psicología.\\
+
+2010$-$2011 & \textbf{Asignatura:} Psicometria. \textbf{Titulación:} Licenciatura de Psicología.\\
+
+2009$-$2010 & \textbf{Asignatura:} Mètodes, dissenys i tècniques de recerca psicològica. \textbf{Titulación:} Licenciatura de Psicopedagogía.\\
+
+2008$-$2009 & \textbf{Asignatura:} Psicometria. \textbf{Titulación:} Licenciatura de Psicología.\\
+
+2008$-$2009 & \textbf{Asignatura:} Dissenys experimentals i aplicats. \textbf{Titulación:} Licenciatura de Psicología.\\
+
+2006$-$2007 & \textbf{Asignatura:} Psicometria. \textbf{Titulación:} Licenciatura de Psicología.\\
+
+2005$-$2009 & \textbf{Asignatura:} Anàlisi de dades en Psicologia. \textbf{Titulación:} Licenciatura de Psicología.\\
+\end{longtable}
+
+%\setlength{\extrarowheight}{5pt}
+
+\vspace{10mm}
+\hrule
+\vspace{10mm}
+
+\section*{Seminarios y cursos impartidos}
+\setlength{\extrarowheight}{10pt}
+\begin{longtable}{p{6in}}
+
+  \textbf{Modelos lineales (generalizos) mixtos}. Curso organizado el grupo de investigación \emph{ContexED}. 6 hours impartidas en Julio de 2024 conjuntamente con el Dr. Rumen Manolov. \\
+
+  \textbf{Research Methods in Cyberspace, Behavior and e-Therapy}. Curso organizado por la \emph{School of Psychology and Life Sciences} de la Universidad Lusófona de Lisboa. 12 horas, impartido en Octubre de 2023. \\
+
+  \textbf{Research Methods in Cyberspace, Behavior and e-Therapy}. Curso organizado por la \emph{School of Psychology and Life Sciences} de la Universidad Lusófona de Lisboa. 12 horas, impartido en Noviembre de 2022. \\
+  
+    \textbf{Estadı́stica Básica con SPSS}. Curso organizado por el \emph{Instituto de Ciencias de la Educación} de la Universidad Politécnica de Barcelona. 10 horas, impartido en Julio de 2021. \\
+
+  \textbf{Curso de análisis de datos y modelos TRI con R}. Curso organizado por el Dpto. de Psicología del Desarrollo de la Universidad de Santiago de Compostela de 12 horas impartido en Enero de 2018. \\
+
+  \textbf{Curso de análisis de datos con R}. Curso organizado por el Dpto. de Metodología de las Cc. del Comportamiento de 20 horas impartido en Julio de 2015 conjuntamente con el Dr. Rumen Manolov. \\
+
+  \textbf{Introducció a les eines estadístiques bàsiques}. Curso organizado por el ICE-UB de 20 horas impartido en Junio de 2015 conjuntamente con el Dr. Joan Guàrdia i Olmos, la Dra. Maribel Peró Cebollero i el Dr. Rumen Manolov. \\
+
+  \textbf{Taller de anàlisis de datos con R y R-Commander}. Curso organizado por el Dpto. de Psicología Evolutiva de 12 horas impartido en Noviembre de 2014 conjuntamente con el Dr. Rumen Manolov. \\
+  
+  \textbf{Introducció a les eines estadístiques b?siques}. Curso organizado por el ICE-UB de 20 horas impartido en Junio de 2014 conjuntamente con el Dr. Joan Guàrdia i Olmos, la Dra. Maribel Peró Cebollero i el Dr. Rumen Manolov. \\
+  
+    \textbf{Competències transversals del Grau de Psicologia: com les ensenyem i com les evaluem}. Taller organizado por el ICE-UB de 4,5 horas impartido en Febrero de 2013 conjuntamente con otros profesores de la facultad de Psicología de la Universidad de Barcelona. \\
+    
+  \textbf{New Plug-in in R-Commander}. Taller de 1 hora incluido en el \emph{Advanced seminar in R-Commander} organizado por el Dpto. de Metodología de las Ciencias del Comportamiento en Octubre de 2012. \\
+    
+  \textbf{Introducció a les eines estadístiques bàsiques}. Curso organizado por el ICE-UB de 20 horas impartido en Enero de 2012 conjuntamente con el Dr. Joan Guàrdia i Olmos i la Dra. Maribel Peró Cebollero. \\
+  
+  \textbf{Introducció a les tècniques d'anàlisi de dades multivariants}. Curso organizado por el ICE-UB de 20 horas impartido en Enero de 2012 conjuntamente con el Dr. Joan Guàrdia i Olmos i la Dra. Maribel Peró Cebollero. \\
+
+  \textbf{Tècniques estadístiques multivariants}. Curso organizado por el ICE-UB de 20 horas impartido en Junio-Julio de 2011 conjuntamente con el Dr. Joan Guàrdia i Olmos i la Dra. Maribel Peró Cebollero. \\
+  
+  \textbf{Introducció a les eines estadístiques bàsiques}. Curso organizado por el ICE-UB de 20 horas impartido en Enero de 2011 conjuntamente con el Dr. Joan Guàrdia i Olmos i la Dra. Maribel Peró Cebollero. \\
+    
+  \textbf{Curso básico de R}. Taller de 6 horas impartido en Junio de 2010 en el Dpto. de Metodología de las Ciencias del Comportamiento. \\
+
+\end{longtable}
+
+%\setlength{\extrarowheight}{5pt}
+
+\vspace{10mm}
+\hrule
+\vspace{10mm}
+
+\section*{Proyectos innovación docente}
+\setlength{\extrarowheight}{10pt}
+\begin{longtable}{p{6in}}
+
+\textbf{Motivació, absentisme i rendiment acadèmic en Educació Superior: Estudi longitudinal intensiu} Proyecto concedido por el \emph{Institut de Ciències de l'Educació - Universitat de Barcelona} (2024-2025). Lead Researcher: David Leiva Ure\~{n}a. \\
+
+\textbf{Percepción de Competencia y Percepción de Reto: Mecanismos Motivacionales Básicos Influyentes en el Desempeño Académico (REDICE18-2308)}. Proyecto concedido por l'Institut de Ciències de l'Educació de la Universidad de Barcelona (2018-2019). Investigador principal: José Navarro Cid. \\
+
+\textbf{SIHEM-UB (Skills Inventory for Higher Education Management) (REDICE16-1560)}. Proyecto concedido por l'Institut de Ciències de l'Educació de la Universidad de Barcelona (2016-2017). Investigador principal: Maribel Peró Cebollero. \\
+
+\textbf{Trabajo en equipo: evaluación de la competencia y diagnóstico de la situación en alumnos de grado de la Universidad de Barcelona (REDICE16-1680)}. Proyecto concedido por l'Institut de Ciències de l'Educació de la Universidad de Barcelona (2016-2017). Investigador principal: José Navarro Cid. \\
+
+\textbf{La competència informacional en el grau de Psicologia (2015PID-UB/009)}. Proyecto concedido por la Universidad de Barcelona (2015-2021). Investigador principal: Mª José Corral. \\
+
+\textbf{!`Cuando la actividad es interesante aprendo más y mejor! Relaciones multinivel entre motivación y el rendimiento en universitarios (REDICE14-1492)}. Proyecto concedido por l'Institut de Ciències de l'Educació de la Universidad de Barcelona (2014-2015). Investigador principal: José Navarro Cid. \\
+
+\textbf{Actividades de aprendizaje autónomo y presencial en Metodología de las Ciencias de Comportamiento (2014PID-UB/003)}. Proyecto concedido por la Universidad de Barcelona (2013-2014). Investigadores principales: Maribel Peró Cebollero y Rumen Manolov. \\
+
+\textbf{Recursos d'informació integrats i transversals per les assignatures de 2n semestre del grau de Psicologia (2012PID-UB/105)}. Proyecto concedido por la Universidad de Barcelona (2012-2013). Investigadora principal: Mª José Corral. \\
+
+\textbf{Desenvolupament d'un sistema de seguiment individualitzat del treball no presencial en assignatures d'alta densitat de matrícula (2012PID-UB/113)}. Proyecto concedido por la Universidad de Barcelona (2012-2013). Investigadores principales: Joan Guàrdia i Olmos i Maribel Peró Cebollero. \\
+
+\textbf{Grup d'innovació per l'aprenentatge de l'estadística en salut (UB-079)}. Proyecto concedido por la Universidad de Barcelona (2011-2016). Investigador principal: Joan Guàrdia i Olmos. \\
+
+\textbf{Grup d'innovació per l'aprenentatge de l'estadística en salut (GIDCUB-11/EST)}. Proyecto concedido por la Universidad de Barcelona (2016-2022). Investigador principal: Joan Guàrdia i Olmos. \\
+
+\textbf{Formació i avaluació en les competències transversals: treball en equips docents (2011PID-UB/95)}. Proyecto concedido por la Universidad de Barcelona (2011-2012). Investigador principal: Joan Guàrdia i Olmos. \\
+
+\textbf{Desenvolupament d'un sistema de seguiment individualitzat del treball no presencial en assignatures d'alta densitat de matrícula (2010PID-UB/23)}. Proyecto concedido por la Universidad de Barcelona (2010-2013). Investigador principal: Joan Guàrdia i Olmos. \\
+
+\textbf{Material audiovisual per les pràctiques de l'assignatura Tècniques de Recerca del nou grau de Psicologia (PD09\_VID16)}. Proyecto concedido por la Universidad de Barcelona (2009-2010). Investigadora principal: Maribel Peró Cebollero. \\
+
+\textbf{Elaboración de un texto docente para el aprendizaje del análisis estadístico con aplicaciones informáticas (SPSS, Statgraphics, Minitab y Excel)}. Proyecto concedido por la Universidad de Barcelona (2004-2005). Investigador principal: Lluís Salafranca i Cosialls. \\
+
+
+\end{longtable}
+
+\vspace{10mm}
+\hrule
+\vspace{10mm}
+
+\section*{Otros méritos docentes}
+\setlength{\extrarowheight}{10pt}
+\begin{longtable}{p{6in}}
+  \textbf{3 tramos de docencia}. Concedidos por la Universidad de Barcelona. Periodos: 2006$-$ 2010 ; 2011 $-$ 2015 y 2016 $-$ 2020.\\
+  
+\textbf{Coordinación de asignaturas:} Asignatura obligatoria \emph{Estadística} del grado de Psicología. Periodo: 2023$-$ Actualidad. \\
+
+\textbf{Coordinación de asignaturas:} Asignatura optativa \emph{Metodologies quantitatives i qualitatives en investigació Psicogerontològica} del máster de Psicogerontología. Periodo: 2016$-$2019. \\
+
+    \textbf{Coordinación de asignaturas:} Asignatura obligatoria \emph{Regression and General Linear Model} del máster Research in Behavior and Cognition. Periodo: 2015$-$Actualidad. \\
+    
+    \textbf{Coordinación de asignaturas:} Asignatura obligatoria \emph{Seminars in Behavior and Cognition} del máster Research in Behavior and Cognition. Periodo: 2017$-$Actualidad. \\
+
+\textbf{Coordinación de asignaturas:} Asignatura optativa \emph{Análisi de les xarxes socials} del grado de Psicología. Periodo: 2013$-$2018. \\
+
+    \textbf{Coordinación de asignaturas:} Asignatura optativa \emph{Workshop on data analysis} del máster Research in Behavior and Cognition. Periodo: 2012$-$2019. \\
+
+\textbf{Coordinación de asignaturas:} Asignatura optativa \emph{Análisi de les relacions socials} del grado de Psicología. Periodo: 2010$-$2013. \\
+
+\end{longtable}
+%\setlength{\extrarowheight}{5pt}
+
+\vspace{10mm}
+\hrule
+\vspace{10mm}
+
+\section*{Becas recibidas}
+
+\begin{longtable}{p{6in}}
+	\textbf{Beca predoctoral FI} concedida por la Generalitat de Catalunya (2005-2008). \\
+	\textbf{Bolsa de viaje} concedida por la Generalitat de Catalunya (2008). \\
+  \textbf{Beca de colaboración con departamentos} concedida por el Ministerio de Educación y Ciencia (2003-2004). \\  
+\end{longtable}
+
+\vspace{10mm}
+\hrule
+\vspace{10mm}
+
+\section*{Otros méritos}
+
+\begin{longtable}{p{6in}}
+Desarrollo y mantenimiento de software estadístico:\\
+\bibentry{sara2024} \\
+\bibentry{eacspir2015} \\
+\bibentry{steepness2014} \\
+\bibentry{pluginsteep2014} \\
+\end{longtable}
+
+\vspace{10mm}
+\hrule
+\vspace{10mm}
+
+\setlength{\extrarowheight}{10pt}
+
+\section*{Idiomas}
+
+\begin{longtable}{p{6in}}
+  Inglés: Nivel C2.2 (Escola d'Idiomes Moderns UB, 2017).  \\ 
+  Español: Lengua materna. \\
+  Catalán: Nivel C (1997). \\  
+  Francés: Nivel B2.1 (EOI, 2022). \\
+\end{longtable}
+
+\vspace{10mm}
+\hrule
+
+% Footer
+\bigskip
+\begin{center}
+  \begin{footnotesize}
+    Última actualización: \today
+  \end{footnotesize}
+\end{center}
+
+\bibliographystyle{apacite}
+%\nobibliography{bibCV_LEIVA}
+
+\end{document}
